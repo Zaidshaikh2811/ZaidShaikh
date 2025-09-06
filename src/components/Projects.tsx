@@ -9,7 +9,7 @@ interface Project {
   image: string;
   technologies: string[];
   githubUrl: string;
-  liveUrl: string;
+  liveUrl?: string ;
   category: string;
 }
 
@@ -24,7 +24,27 @@ const projectsData: Project[] = [
     liveUrl: "https://ai-job-application-assistant.vercel.app",
     githubUrl: "https://github.com/Zaidshaikh2811/AI-Job-Application-Assistant",
     category: 'Full-Stack'
-  }, {
+  },
+    {
+    id: 8,
+    title: "BookStore",
+    description: "A cross-platform mobile bookstore app built with React Native (Expo), complete with a supporting backend to manage book listings, user accounts, and more.",
+    image: "/BookStore.png",
+    technologies: ["React Native (Expo)", "Node.js with Express.js", "MongoDB", "Zustand", "Typescript", "React Nativewind"],
+    // liveUrl: "https://github.com/Zaidshaikh2811/Native_BookStore",
+    githubUrl: "https://github.com/Zaidshaikh2811/Native_BookStore",
+    category: 'Mobile-App'
+  },  {
+    id: 9,
+    title: "FitNest Fitness Platform",
+    description: "A scalable microservices-based fitness tracking and AI recommendation platform built with Java (Spring Boot), React, RabbitMQ, Docker, and more.",
+    image: "/ActivityAI.png",
+    technologies: ["Java (Spring Boot)", "RabbitMQ ", "Eureka Server", "Spring Cloud Config", "Docker "],
+    // liveUrl: "https://github.com/Zaidshaikh2811/ActivityAI-Microservices-Platform",
+    githubUrl: "https://github.com/Zaidshaikh2811/ActivityAI-Microservices-Platform",
+    category: 'Backend'
+  },
+    {
     id: 1,
     title: "Public Transport Complaint Portal",
     description: "A full-stack web app for users to report and track public transport complaints with real-time status updates and media support.",
@@ -185,6 +205,9 @@ const Projects = () => {
                     <Github className="w-4 h-4 mr-2" />
                     Code
                   </a>
+                    {
+
+                        project.liveUrl &&
                   <a
                     href={project.liveUrl}
                     target="_blank"
@@ -193,7 +216,7 @@ const Projects = () => {
                   >
                     <ExternalLink className="w-4 h-4 mr-2" />
                     Live Demo
-                  </a>
+                  </a>    }
                 </div>
               </div>
             </div>
