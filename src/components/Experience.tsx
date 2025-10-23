@@ -15,16 +15,26 @@ interface ExperienceItem {
 const experienceData: ExperienceItem[] = [
   {
     id: 1,
+    title: "Python Developer",
+    type: 'Internship',
+    company: "Vector Stack ",
+    period: "Sep-2025 - present",
+    location: 'bengaluru, India',
+    description: ["Working as a Python Developer", "Technologies: FastAPI"],
+    highlight: true
+  },
+  {
+    id: 2,
     title: "Software Engineer ",
     type: 'Internship',
     company: "SCIQUS INFOTECH PVT. LTD.",
-    period: "2025 - present",
+    period: "Feb 2025 - Aug 2025",
     location: 'Pune, India',
     description: ["Built and deployed a full-stack e-commerce platform with a storefront and admin dashboard", "Integrated third-party REST APIs, reducing product data update latency by 60%", "Technologies: React, SCSS"],
     highlight: true
   },
   {
-    id: 2,
+    id: 3,
     type: 'Freelance',
     title: "Front End Developer",
     company: "Maulana Azad Polytechnic",
