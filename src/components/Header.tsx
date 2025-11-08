@@ -45,6 +45,14 @@ const Header = () => {
                   {item}
                 </button>
               ))}
+               <a
+                href="https://medium.com/@zaidshaikh2811"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium"
+              >
+                Blog
+              </a>
             </div>
           </div>
         </nav>
