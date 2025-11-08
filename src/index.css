@@ -58,3 +58,18 @@
     transform: scale(1.05);
   }
 }
+ 
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* Optional: just to ensure it's invisible */
+}
+
+/* Hide scrollbar for Firefox */
+html {
+  scrollbar-width: none;
+}
+
+ 
+body {
+  -ms-overflow-style: none;
+}
