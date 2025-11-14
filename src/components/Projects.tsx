@@ -15,6 +15,43 @@ interface Project {
 
 
 const projectsData: Project[] = [
+    {
+        id: 10,
+        title: "use-fetch-smart (NPM Package)",
+        description:
+            "A powerful and lightweight fetching hook for React with smart caching, persistence, retry logic, and instant response from cache.",
+        image: "/usefetchsmart.png",
+        technologies: [
+            "TypeScript",
+            "React",
+            "Axios",
+            "NPM",
+            "Caching",
+            "Retry Logic",
+        ],
+        liveUrl: "https://www.npmjs.com/package/use-fetch-smart",
+        githubUrl: "https://github.com/Zaidshaikh2811/use-fetch-smart",
+        category: "Library",
+    },
+
+    {
+        id: 11,
+        title: "TicketForge – Event Ticketing Platform",
+        description:
+            "A modern Backend ticket booking platform with secure payments, event browsing, and real-time ticket availability.",
+        image: "/ticketforge.png",
+        technologies: [
+            "Next.js",
+            "Typescript",
+            "Stripe",
+            "Tailwind CSS",
+            "Prisma",
+            "PostgreSQL",
+        ],
+        liveUrl: "https://ticketforge.vercel.app/",
+        githubUrl: "https://github.com/Zaidshaikh2811/ticket-forge",
+        category: "Backend",
+    },
   {
     id: 7,
     title: "AI-Powered Applications",
