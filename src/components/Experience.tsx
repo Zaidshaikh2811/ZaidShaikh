@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Calendar, MapPin, Award } from 'lucide-react';
 
 interface ExperienceItem {
@@ -15,12 +15,12 @@ interface ExperienceItem {
 const experienceData: ExperienceItem[] = [
   {
     id: 1,
-    title: "Python Developer",
+    title: "Backend Developer",
     type: 'Internship',
     company: "Vector Stack ",
     period: "Sep-2025 - present",
-    location: 'bengaluru, India',
-    description: ["Working as a Python Developer", "Technologies: FastAPI"],
+    location: 'Bengaluru, India',
+    description: ["Working as a Backend Developer", "Technologies: FastAPI"],
     highlight: true
   },
   {

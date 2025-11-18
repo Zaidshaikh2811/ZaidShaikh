@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const Header = () => {
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -45,7 +45,7 @@ const Header = () => {
                   {item}
                 </button>
               ))}
-               <a
+              <a
                 href="https://medium.com/@zaidshaikh2811"
                 target="_blank"
                 rel="noopener noreferrer"
