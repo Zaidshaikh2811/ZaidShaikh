@@ -1,4 +1,4 @@
-# Zaid Shaikh — Frontend / Full-Stack Web Developer
+# Zaid Shaikh —  Full-Stack Web Developer
 
 [Visit my live portfolio →](https://zaid-shaikh.vercel.app/)  
 
