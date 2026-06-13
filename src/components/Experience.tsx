@@ -28,7 +28,7 @@ const experienceData: ExperienceItem[] = [
     title: "Backend Developer",
     type: 'Internship',
     company: "Vector Stack ",
-    period: "Sep-2025 - present",
+    period: "Sep-2025 - Dec-2025",
     location: 'Bengaluru, India',
     description: ["Working as a Backend Developer", "Technologies: FastAPI"],
     highlight: true
