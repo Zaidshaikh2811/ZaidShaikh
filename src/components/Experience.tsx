@@ -13,8 +13,18 @@ interface ExperienceItem {
 }
 
 const experienceData: ExperienceItem[] = [
-  {
+   {
     id: 1,
+    title: "Software Engineer",
+    type: 'Full Time',
+    company: "Dectree Infotech Private Limited",
+    period: "Jan-2026 - present",
+    location: 'Navi-Mumbai, India',
+    description: ["Working as a Software Engineer"],
+    highlight: true
+  },
+  {
+    id: 2,
     title: "Backend Developer",
     type: 'Internship',
     company: "Vector Stack ",
@@ -24,7 +34,7 @@ const experienceData: ExperienceItem[] = [
     highlight: true
   },
   {
-    id: 2,
+    id: 3,
     title: "Software Engineer ",
     type: 'Internship',
     company: "SCIQUS INFOTECH PVT. LTD.",
@@ -34,7 +44,7 @@ const experienceData: ExperienceItem[] = [
     highlight: true
   },
   {
-    id: 3,
+    id: 4,
     type: 'Freelance',
     title: "Front End Developer",
     company: "Maulana Azad Polytechnic",
